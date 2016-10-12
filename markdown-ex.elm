@@ -1,9 +1,14 @@
+module Main exposing (..)
+
 import Markdown
+
 
 main =
     Markdown.toHtml [] markdown
 
-markdown = """
+
+markdown =
+    """
 # Header1
 ## Header 2
 ### Header 3
